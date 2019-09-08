@@ -5,6 +5,7 @@
   <!-- Also contains script tags (Javascript) and link tags -->
   <!-- What is metadata? -->
   <!-- Metadata is machine readable data but is not present on the page -->
+
   <head>
     <!-- The link tag is most commonly used to link CSS files -->
     <link rel="stylesheet" href="" />
@@ -14,11 +15,60 @@
   </head>
 
   <!-- The body tag represents where the content of your site is going to go -->
+
   <body>
     <!-- The header tag represents a headers that you would typically see at the top of a page -->
     <!-- Could generally contain a navigation bar among other things -->
     <header>
-      I'm a header
+      <!-- This is a nav element. Usually contains navigation links for your website -->
+      <nav>I could contain links among other things</nav>
     </header>
+
+    <!-- h1, h2, h3, h4, h5, h6 are header tags that contain text. These are usually section headers-->
+    <h1>Hello, I'm a header tag</h1>
+
+    <!-- Section element can wrap around multiple elements that lets engines know it's a section -->
+    <section>
+      I can wrap around things to let search engines know that what's contained
+      is a section block
+    </section>
+
+    <!-- A div is an extremely important element to use and understand completely -->
+    <!-- It's good for wrapping around an element to help style and organize things on a page -->
+    <div>
+      I can contain anything and you can move me around
+    </div>
+
+    <!-- An unordered list element is an unordered list of items -->
+    <ul>
+      <!-- The li element is used to represent a list item. Default is a bulleted list-->
+      <li>List item 1</li>
+      <!-- Below is an ordered list item. The default is a numbered list -->
+      <ol></ol>
+    </ul>
+
+    <!-- A paragraph tag is a common element that is used for text -->
+    <p>I am the contents of a p tag</p>
+
+    <!-- The below are inline semantics -->
+
+    <!-- Below is an anchor tag. Creates a hyperlink to other pages, emails, or skips down to a certain point on the page -->
+    <a href="https://google.com">Let's go to Google</a>
+
+    <!-- Below is a span. It can be thought of as similar to a div tag but it's an inline element -->
+    <span>I'm a span</span>
+
+    <!-- Below is an iframe element -->
+    <div>
+      <h1>Below is an iframe</h1>
+      <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300"
+        height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+      >
+      </iframe>
+    </div>
   </body>
 </html>
