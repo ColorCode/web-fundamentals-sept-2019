@@ -7,8 +7,7 @@ The end goal is also in this directory. It's called `end-goal.png`.
 
 ### What to do 
 - Clone this repo
-- Navigate to the exercises directory
-- Modify the index.html inside `exercises/instagram-header`
+- Navigate to the `exercises/instagram-header` directory
 - `npm install`
 - `npm start`
 - Start by modifying the `index.html` in that directory
