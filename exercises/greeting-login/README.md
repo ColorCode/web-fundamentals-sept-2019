@@ -1,4 +1,4 @@
-# INSTAGRAM HEADER
+# GREETING LOGIN
 This exercise includes building the login page for the greeting app.
 ![alt text](https://github.com/ColorCode/web-fundamentals-sept-2019/blob/master/exercises/greeting-login/end-goal.png "Login")
 
