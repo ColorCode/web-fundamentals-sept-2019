@@ -1,1 +1,37 @@
 /* Add your CSS here */
+body {
+  font-family: 'Manjari', sans-serif;
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+input {
+  background: #ffffff99;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 6px 8px;
+  color: white;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: 100;
+}
+
+button {
+  background: #ffffff00;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 6px;
+  font-weight: 100;
+}
