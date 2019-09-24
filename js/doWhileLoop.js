@@ -1,5 +1,5 @@
 let i = 0;
 do {
-  i += 1;
-  console.log(i);
+  i++;
+  console.log("Adam has", i, "apples");
 } while (i < 5);
