@@ -31,3 +31,17 @@ for (let i = 0; i < 100; i++) {
     console.log("evens ", i);
   }
 }
+
+// Let's add an if conditonal inside! Please look up Javascript operators to understand %
+for (let i = 0; i < 100; i++) {
+  let isCurrentValueOdd = function() {
+    return i % 2 !== 0;
+  };
+
+  // The above can also be written in ES6 syntax. Comment out the above code and comment in the code below
+  // let isCurrentValueOdd = () => i % 2 !== 0;
+
+  if (isCurrentValueOdd()) {
+    console.log("odds ", i);
+  }
+}
