@@ -21,6 +21,9 @@ let codeFamily = {
   Kalen: "I don't do pushups, I push the earth down"
 };
 
+// Do not use a for in loop for an array like the one below:
+// let codeFamily = ["hi", "bye", "why"];
+
 for (let member in codeFamily) {
   // console.log(member)
   // console.log(codeFamily[member])
