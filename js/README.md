@@ -88,3 +88,93 @@ function myFunction (num1, num2) {
   return num1 + num2;
 }
 ```
+
+## Conditionals (if statement)
+Conditionals allow us to compare two pieces of data, including variables.
+
+```js
+// Checking to see if a variable is smaller than 21
+var age = 19;
+if (age < 21) {
+  console.log('You are too young to drink.');
+}
+```
+
+```js
+// Checking to see if a variable is smaller than 10
+var howManyTimeYouCoded = 14;
+if (howManyTimeYouCoded > 10) {
+  console.log('You are a serious coder!');
+} else {
+  console.log('Just beginning, thats cool!');
+}
+```
+
+```js
+// Checking to see if it's morning, afternoon or evening
+var hour = 19;
+if (hour < 12) {
+  console.log('good morning');
+} else if (hour < 18) {
+  console.log('good afternoon');
+} else {
+  console.log('good evening');
+}
+```
+
+#### AN EXPLANATION OF FOR LOOP SYNTAX
+```js
+if (IF THIS CONDITION IS TRUE, DO WHAT IS INSIDE THE CURLIES) {
+  // Do the following
+}
+```
+
+```js
+if (IF THIS CONDITION IS TRUE, DO WHAT IS INSIDE THE CURLIES) {
+  // Do the following
+} else if (OTHERWISE, IF THIS OTHER CONDITION IS TRUE)
+  // Do the following
+} else {
+  // In all other case do this.
+}
+```
+
+## Loops (for)
+Loops or 'iterators' are used to perform operations on lists. Say we have an array of people and we want to `console.log` all their names. We could do it two ways:
+
+The not so great way:
+```js
+var people = ['Alexander', 'George', 'Eliza', 'Angelica'];
+console.log(people[0]);
+console.log(people[1]);
+console.log(people[2]);
+console.log(people[3]);
+```
+
+Or we could use a `for` loop, which is waaaaaay better:
+```js
+var people = ['Alexander', 'George', 'Eliza', 'Angelica'];
+
+for (var i = 0; i < people.length; i++) {
+  console.log(people[i]);
+}
+```
+
+We could even reverse the order in which we log starting from the end of the array:
+```js
+var people = ['Alexander', 'George', 'Eliza', 'Angelica'];
+
+for (var i = people.length - 1; i >= 0; i--) {
+  console.log(people[i]);
+}
+```
+
+#### AN EXPLANATION OF FOR LOOP SYNTAX
+```js
+for (Start from this index, Continue as long as this condition is true, Do this after each iteration) {
+  // Do this to each element
+}
+```
+
+
+
