@@ -176,5 +176,59 @@ for (Start from this index, Continue as long as this condition is true, Do this 
 }
 ```
 
+## DOM Manipulation
+DOM Manipulation refers to the process of adding, removing or modifying HTML elements on the DOM using JavaScript.
 
+#### Finding existing elements
+Find existing elements before you modify it or add children to it.
+```js
+// Find body
+var body = document.body;
+
+// Find an element with specific ID
+// This assumes there is an elment already 
+// in your HTML with the ID of "my-list"
+var list = document.getElementById('my-list');
+
+// Find all the elements with the class "heading"
+// This will return an array of HTML elements
+var headings = document.getElementsByClassName('heading');
+```
+
+See other examples of DOM queries [here](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName).
+
+#### Create a new element
+```js
+// Create a new `<div>`
+var div = document.createElement('div');
+// Give it an ID
+div.id = 'some-id';
+
+// Create a new `<li>`
+var li = document.createElement('li');
+// Change its content to 'Hello'
+li.innerText = 'Hello';
+```
+
+#### Add elements to the DOM
+```js
+// Create a new DIV element
+var div = document.createElement('div');
+// Add it to the body
+document.body.appendChild(div);
+```
+
+```js
+// Create a new list item element
+var listItem = document.createElement('li');
+// Add it to an element with the ID of 'list'
+var list = document.getElementById('my-list');
+list.appendChild(listItem);
+```
+
+#### Modify styles of an element
+```js
+var element = document.getElementById('my-element');
+element.style.backgroundColor = 'red';
+```
 
