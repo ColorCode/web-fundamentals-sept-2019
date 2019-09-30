@@ -1,0 +1,15 @@
+{
+  "name": "news-items",
+  "version": "1.0.0",
+  "description": "This exercise includes looping through an Array of objects that include news details.",
+  "main": "data.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
