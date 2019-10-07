@@ -30,7 +30,3 @@ function addThisToTheList (type, text, container) {
   container.appendChild(element);
 }
 
-
-
-
-
