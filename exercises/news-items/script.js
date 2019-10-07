@@ -58,6 +58,3 @@ function addItemsToPage() {
     ul.appendChild(li);
   };
 }
-
-
-
