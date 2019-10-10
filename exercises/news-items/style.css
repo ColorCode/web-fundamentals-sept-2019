@@ -1,0 +1,100 @@
+/* Add your CSS here */
+body {
+  font-family: 'Manjari', sans-serif;
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+main {
+  text-align: center;
+  color: white;
+  position: relative;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  max-height: 100%;
+}
+
+button {
+  background: #ffffff00;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 6px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+.time {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  color: grey;
+}
+
+.logout {
+  position: fixed;
+  top: 10;
+  right: 10px;
+}
+
+.notification {
+  position: absolute;
+  background: #ff005e;
+  width: 16px;
+  height: 16px;
+  line-height: 18px;
+  border-radius: 50%;
+  top: -13px;
+  font-style: normal;
+  right: -13px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.section--news {
+  background: #ffffff0f;
+  border: 1px solid #444444;
+  overflow: scroll;
+  text-align: left;
+  max-height: 400px;
+}
+
+.news-category {
+  position: relative;
+  display: inline-block;
+}
+
+.news-item {
+  margin-bottom: 40px;
+}
+
+.news-item .date {
+  font-size: 10px;
+}
+
+.news-item__date {
+  color: darkgray;
+}
+
+.news-item__network {
+  margin: 0;
+}
+
+.news-item__details {
+  display: flex;
+}
+
+.news-item__image {
+  height: 100px;
+  margin-right: 20px;
+}
