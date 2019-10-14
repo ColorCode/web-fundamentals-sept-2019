@@ -1,20 +1,38 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>News Items</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Manjari:100,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>News Feed</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
-  
   <body>
-      <main>
-      <section class="section--news">
-        <ul></ul>
-      </section>
-      
-    </main>
-    
-    <script src="data.js"></script>
+       <button class="btn-top">Log in</button>
+     <main>
+          <header>
+               <h1>Good Morning, SunShine...</h1>
+               <h2><span id="date"></span></h2>
+               <h3><span id="time"></span></h3>
+          </header> 
+     <section>
+          <p class="news-item__title">Latest News<i class="notification">3</i></p>
+               
+    <ul></ul>
+          </section>
+
+    <script>
+       n = new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+
+          var dt = new Date();
+          document.getElementById("time").innerHTML = dt.toLocaleTimeString();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
+
