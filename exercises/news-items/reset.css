@@ -1,21 +1,6 @@
-/* RESET ANY BROWSER CSS HERE */
 * {
-  vertical-align: baseline;
-  /* font-weight: inherit;
-  font-family: inherit;
-  font-style: inherit; */
-  /* font-size: 100%; */
-  border: 0 none;
-  outline: 0;
-  padding: 0;
-  margin: 0;
-  -webkit-text-size-adjust: none;
-
-}
-
-/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-} */
+}

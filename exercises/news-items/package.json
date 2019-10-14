@@ -1,8 +1,8 @@
 {
-  "name": "news-items",
+  "name": "greeting-news",
   "version": "1.0.0",
-  "description": "This exercise includes looping through an Array of objects that include news details.",
-  "main": "data.js",
+  "description": "This exercise includes building the news page for the greeting app. ![alt text](https://github.com/ColorCode/web-fundamentals-sept-2019/blob/master/exercises/greeting-news/end-goal.png \"News\")",
+  "main": "index.js",
   "scripts": {
     "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
